@@ -1,0 +1,153 @@
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github
+$ mkdir Herdalina
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github
+$ cd herdalina
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina
+$ mkdir Herdalina
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina
+$ ls
+Herdalina/
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina
+$ cd Herdalina
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina
+$ touch README.md
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina
+$ echo "Inisialisasi Git Repository" > README.md
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina
+$ git init
+Initialized empty Git repository in C:/Users/LENOVO/Documents/technical Assignment Git&Github/Herdalina/Herdalina/.git/
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git commit -m "Inisialisasi Git Repository"
+[master (root-commit) 71a8c24] Inisialisasi Git Repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git branch cv
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git checkout cv
+Switched to branch 'cv'
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ touch cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ echo "Ini adalah file CV" > cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git commit -m "Inisialisasi CV"
+[cv 41444a7] Inisialisasi CV
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ nano cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git commit -m "RSPAU dr.S Hardjulukito Yogyakarta"
+[cv 1a75e76] RSPAU dr.S Hardjulukito Yogyakarta
+ 1 file changed, 3 insertions(+)
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ nano cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git commit -m "RSUP Dr.Sardjito Yogyakarta"
+[cv faad3c4] RSUP Dr.Sardjito Yogyakarta
+ 1 file changed, 1 insertion(+)
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ nano cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git commit -m "Owner Zadaaccecories Yogyakarta"
+[cv 7a88cff] Owner Zadaaccecories Yogyakarta
+ 1 file changed, 1 insertion(+)
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (cv)
+$ git checkout master
+Switched to branch 'master'
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ echo "Halo perkenalkan aku halaman utama
+>
+> Ini adalah update pertama pada branch master" > README.md
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git commit -m "update master pertama"
+[master cd738e5] update master pertama
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git merge cv
+Merge made by the 'recursive' strategy.
+ cv.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 cv.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (master)
+$ git remote add origin https://github.com/HdlnDelin/Technical-Assignment-.git
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herda
+$ git branch -M main
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herda
+$ git push -u origin main
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (20/20), 1.83 KiB | 234.00 KiB/s, done.
+Total 20 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/HdlnDelin/Technical-Assignment-.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/herdalina/Herdalina (main)
+$

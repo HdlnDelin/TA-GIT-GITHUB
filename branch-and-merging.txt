@@ -1,0 +1,10 @@
+1.Clean up the working tree by recursively deleting files that are not under version control, starting from the current directory.
+2.-d Normally, when nothing is specified, git clean will not reappear to untracked directories to avoid deleting too many. Specify -d to make it loop   over to such a directory as well. If no path is specified, -d is irrelevant; all untracked files that match the specified path (with the exception   of the nested git directory mentioned under --force) will be deleted. -F --force If the Git clean.requireForce configuration variable is not set to   false, git clean will refuse to delete the file or directory unless given -for -i. Git will refuse to modify untracked nested git repositories   (directories with .git subdirectories) unless a second -f is provided.
+3.git branch
+4.The difference between this merge and fast forward merge is that the merge is done with a recursive strategy
+5.git checkout
+6.git reset
+7.Delete the REMOTELY branch. Here's the command to remotely delete a branch: git push --delete .
+8.The Diff command is used in git to track differences between changes made to files.
+9.git rm --cached.
+10.Merge conflicts can occur when merging branches, rebasing branches, or selecting commits.

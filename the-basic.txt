@@ -1,0 +1,76 @@
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github
+$ mkdir git-basic
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github
+$ cd git-basic
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic
+$ touch first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic
+$ git init
+Initialized empty Git repository in C:/Users/LENOVO/Documents/technical Assignment Git&Github/git-basic/.git/
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git add first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git commit -m "adding first.txt"
+[master (root-commit) c47e09d] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git log
+commit c47e09dcf1b5da197e1e813e29528b3b59a989db (HEAD -> master)
+Author: Delin <delinhdln@gmail.com>
+Date:   Sun Feb 6 22:02:58 2022 +0000
+
+    adding first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ touch second.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git add second.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git commit -m "adding second.txt"
+[master 9908f74] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ rm first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git add .
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git commit -m "removing first.txt"
+[master a728b8c] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$ git log
+commit a728b8c56603839e3153e19b24105313082861e3 (HEAD -> master)
+Author: Delin <delinhdln@gmail.com>
+Date:   Sun Feb 6 22:06:08 2022 +0000
+
+    removing first.txt
+
+commit 9908f74f4ffd10670397fcdb3eb4e4fb78338763
+Author: Delin <delinhdln@gmail.com>
+Date:   Sun Feb 6 22:04:53 2022 +0000
+
+    adding second.txt
+
+commit c47e09dcf1b5da197e1e813e29528b3b59a989db
+Author: Delin <delinhdln@gmail.com>
+Date:   Sun Feb 6 22:02:58 2022 +0000
+
+    adding first.txt
+
+LENOVO@DESKTOP-JNDOJF1 MINGW64 ~/Documents/technical Assignment Git&Github/git-basic (master)
+$

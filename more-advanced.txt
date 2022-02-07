@@ -1,0 +1,28 @@
+1.-git revert
+Perintah ini menciptakan komit baru yang membatalkan perubahan dari komit sebelumnya. Perintah ini menambahkan sejarah baru ke proyek (itu tidak mengubah sejarah yang ada).
+
+-git reset
+Perintah ini sedikit lebih rumit. Ini sebenarnya melakukan beberapa hal yang berbeda tergantung pada bagaimana ia dipanggil. Ini memodifikasi indeks (yang disebut "area pementasan"). Atau perubahan yang dilakukan oleh kepala cabang saat ini mengarah ke. Perintah ini dapat mengubah riwayat yang ada (dengan mengubah komit yang direferensikan cabang).
+
+Menggunakan perintah ini
+Jika komit telah dibuat di suatu tempat dalam sejarah proyek, dan Anda kemudian memutuskan bahwa komit itu salah dan seharusnya tidak dilakukan, maka itu git revertadalah alat untuk pekerjaan itu. Ini akan membatalkan perubahan yang dilakukan oleh komit buruk, merekam "undo" dalam sejarah.
+
+Jika Anda telah memodifikasi file di pohon kerja Anda, tetapi belum melakukan perubahan, maka Anda dapat menggunakan git checkoutuntuk checkout salinan baru-dari-repositori file.
+
+Jika Anda telah membuat komit, tetapi belum membagikannya dengan orang lain dan Anda memutuskan tidak menginginkannya, maka Anda dapat menggunakannya git resetuntuk menulis ulang sejarah sehingga seolah-olah Anda tidak pernah membuat komit itu.
+
+2.- Git Merge
+Git merge adalah perintah yang menyatukan dua atau lebih cabang histori komit. Penggabungan seringkali menyatukan hanya dua cabang, meskipun Git mendukung penggabungan tiga, empat, atau lebih cabang secara bersamaan. Git merge digunakan oleh Git pull untuk menggabungkan perubahan dari satu cabang ke cabang lain atau dari repositori lainnya sekaligus. Penggabungan harus terjadi dalam repositori tunggal yang berarti semua cabang yang perlu digabung, harus ada dalam repositori yang sama. Menggabungkan situasi biasanya hasil dari dua atau lebih pengguna, mencoba memperbarui kode umum. Paling umum, pengguna menggabungkan cabang ke cabang lain di repositori lokal mereka di lingkungan lokal. Git merger secara khusus mengintegrasikan konten cabang sumber dengan cabang target. Cabang target diubah, sementara cabang sumber tetap.
+
+- Git Rebase
+Git rebase adalah alternatif lain dari penggabungan yang digunakan untuk mengintegrasikan cabang lain dengan cabang tempat Anda saat ini bekerja, kecuali itu menyimpan sejarah komit linear. Tujuan dari Git rebase adalah memindahkan cabang dari satu lokasi ke lokasi lain. Karena komit tidak dapat diubah, komit tidak dapat dipindahkan, jadi ini memerlukan komit baru dengan perubahan dan metadata yang sama. Rebase secara mendasar mengubah gagasan kapan dan di mana urutan komitmen dikembangkan, yang mengakibatkan beberapa aspek sejarah pembangunan hilang. 
+
+3.-git stash pop membuang simpanan 	  (paling atas, secara default) setelah   menerapkannya, sedangkan 
+  -git stash apply menyimpannya di   daftar simpanan untuk kemungkinan   nanti digunakan kembali (atau Anda   dapat melakukannya kemudian git stash   drop).
+
+  Ini terjadi kecuali jika ada konflik   setelahnya git stash pop, dalam hal   ini tidak akan menghapus simpanan,   membiarkannya berperilaku seperti itu   git stash apply.
+
+4.-menerapkan kembali komit, satu per satu, secara berurutan, dari cabang Anda saat ini ke cabang lain. Ia menerima beberapa opsi dan parameter, jadi itulah tip penjelasan gunung es, cukup untuk menjembatani kesenjangan antara komentar StackOverflow atau GitHub dan halaman manual git.
+
+Opsi menarik yang diterimanya adalah --interactive (singkatnya -i), yang akan membuka editor dengan daftar commit yang akan diubah. Daftar ini menerima perintah, memungkinkan pengguna untuk mengedit daftar sebelum memulai tindakan rebase.
+
